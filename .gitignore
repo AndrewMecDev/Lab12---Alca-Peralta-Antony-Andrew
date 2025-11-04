@@ -1,0 +1,75 @@
+# ===========================
+# Android / Kotlin / Compose
+# ===========================
+
+# Gradle
+.gradle/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+*.orig
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Artefactos compilados
+# ===========================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+out/
+
+# ===========================
+# Keystores y firmas
+# ===========================
+*.jks
+*.keystore
+*.pem
+*.der
+*.key
+
+# ===========================
+# Archivos locales y secretos
+# ===========================
+local.properties
+secrets.properties
+*.secret
+*.env
+*.credentials
+*.keystore
+*.p12
+
+# Fallbacks versionables
+# (Este sí se sube, por eso no lo ignoramos)
+# local.defaults.properties
+
+# ===========================
+# Cache y temporales
+# ===========================
+.cache/
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ===========================
+# Otros
+# ===========================
+/captures
+.DS_Store

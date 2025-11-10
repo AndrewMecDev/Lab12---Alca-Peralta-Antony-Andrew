@@ -8,9 +8,8 @@ plugins {
 
 android {
     namespace = "com.example.lab12"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
+
 
     defaultConfig {
         applicationId = "com.example.lab12"
@@ -59,6 +58,18 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+
+// --- (DEPENDENCIAS CORREGIDAS) ---
+
+    // SDK de Google Places
+    // (Línea duplicada eliminada)
+    implementation(libs.google.android.libraries.places)
+
+    // Iconos de Material Design (Ahora funcionará)
+    implementation(libs.androidx.material.icons.extended)
+
+    // --- (FIN DE CORRECCIONES) ---
 
 
 
